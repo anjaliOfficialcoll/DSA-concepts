@@ -7,6 +7,7 @@ public class TotaCost {
         float pen=sc.nextFloat();
         float eraser=sc.nextFloat();
         System.out.println((pen+pencil+eraser)*0.18+(pen+pencil+eraser));
+        sc.close();
 
     }
     
