@@ -1,5 +1,5 @@
 package BinaryTree;
-
+// heightOfTree nodesOfTree  sumOfTree diameerOfTree
 public class HeightTre {
    static class TreeNode{
         int data;
@@ -13,6 +13,7 @@ public class HeightTre {
         }
 
     }
+    //________________________________________________________________________________________
     public static int heightOfTree(TreeNode root){
         if(root==null){
             return 0;
@@ -21,6 +22,7 @@ public class HeightTre {
         int rh=heightOfTree(root.right);
         return Math.max(lh,rh)+1;
     }
+    //________________________________________________________________________________________
     public static int nodesOfTree(TreeNode root){
         if(root==null){
             return 0;
@@ -30,6 +32,7 @@ public class HeightTre {
         return lh+rh+1;
     }
     //SUM OF TREE
+    //________________________________________________________________________________________
     public static int sumOfTree(TreeNode root){
         if(root==null){
             return 0;
@@ -38,6 +41,12 @@ public class HeightTre {
         int rsum=sumOfTree(root.right);
         return lsum+rsum+root.data;
     }
+    //________________________________________________________________________________________
+
+    public static int diameterOfTree(TreeNode root){
+
+    }
+    //________________________________________________________________________________________
     public static void main(String args[]){
        
         TreeNode root = new TreeNode(1);
