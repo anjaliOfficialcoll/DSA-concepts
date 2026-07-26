@@ -43,9 +43,9 @@ public class HeightTre {
     }
     //________________________________________________________________________________________
 
-    public static int diameterOfTree(TreeNode root){
+    // public static int diameterOfTree(TreeNode root){
 
-    }
+    // }
     //________________________________________________________________________________________
     public static void main(String args[]){
        
